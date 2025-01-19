@@ -10,9 +10,11 @@ lang: ja
 
 ### 連絡先
 
-<i class="bi bi-envelope" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>  sakai-mana@g.ecc.u-tokyo.ac.jp
+<i class="bi bi-envelope" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
+sakai-mana@g.ecc.u-tokyo.ac.jp
 
-<i class="bi bi-twitter-x" style="color: var(--icon-color); font-size: 1.2em; vertical-align: middle;"></i>  [@_iammana](https://x.com/_iammana)
+<i class="bi bi-twitter-x" style="color: var(--icon-color); font-size: 1.2em; vertical-align: middle;"></i>
+[@_iammana](https://x.com/_iammana)
 
 
 ### 研究関心
@@ -20,7 +22,6 @@ lang: ja
 - **統計的機械学習**
     - ニューラルネットワーク
 - **統計学**
-    - ベイズ統計学
 
 
 ### 学歴
