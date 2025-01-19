@@ -1,0 +1,39 @@
+---
+title: "Research"
+lang: en
+---
+
+### Preprint
+
+- **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. (2024). Priors for second-order unbiased Bayes estimators. [*arXiv:2412.19187*](https://arxiv.org/abs/2412.19187).
+    <br>
+    [[PDF](https://arxiv.org/pdf/2412.19187)]
+    [[Code](https://github.com/manasakai/second-order-unbiased-NER)]
+    <br>
+    <details>
+    <summary>
+    <span style="color: var(--text-sub-color)">
+    Abstract
+    </span>
+    </summary>
+
+    <span style="color: var(--text-sub-color)">
+    <u>**Asymptotically unbiased priors**</u>, introduced by Hartigan (1965), are designed to achieve <u>**second-order unbiasedness</u>** of Bayes estimators. This paper <u>**extends Hartigan's framework to non-i.i.d. models</u>** by deriving a system of partial differential equations that characterizes asymptotically unbiased priors. Furthermore, we establish a necessary and sufficient condition for the existence of such priors and <u>**propose a simple procedure for constructing them</u>**.
+    <br>
+    The proposed method is applied to several examples, including the linear regression model and the nested error regression (NER) model (also known as the random effects model). Simulation studies evaluate the frequentist properties of the Bayes estimator under the asymptotically unbiased prior for the NER model, highlighting its effectiveness in small-sample settings.
+    </span>
+
+    <span style="color: var(--text-sub-color)">
+    [1] Hartigan, J. A. (1965). The asymptotically unbiased prior distribution. *The Annals of Mathematical Statistics 36*(4), 1137–1152.
+    </span>
+    </details>
+
+
+### Awards
+- **最優秀報告賞**​，2024年度統計関連学会連合大会，2024/09．
+<br>
+(**Best Presentation Award**, Japanese Joint Statistical Meeting, September 2024.)
+
+- **優秀ポスター発表賞**，応用統計学会2024年度年会，2024/05．
+<br>
+(**Best Poster Award**, 2024 Annual Meeting of the Japanese Society of Applied Statistics, March 2024.)

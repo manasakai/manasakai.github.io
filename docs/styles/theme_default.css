@@ -1,0 +1,128 @@
+@charset "UTF-8";
+:root { /*-- Theme: Scandinavian --*/
+  --font-family: "Hiragino Sans", "Noto Sans", "Arial", sans-serif;
+  --navbar-bg-color: rgb(156, 143, 133);
+  --navbar-text-color: white;
+  --navbar-hover-color: rgb(117, 107, 100);
+  --banner-bg-color: var(--navbar-bg-color);
+  --banner-color: var(--navbar-text-color);
+  --banner-hover-color: var(--navbar-hover-color);
+  --text-color: black;
+  --text-sub-color: rgb(83, 84, 87);
+  --bg-color: white;
+  --heading-color: rgb(67, 79,123);
+  --heading-font-family: var(--font-family);
+  --link-color: rgb(98, 124, 171);
+  --link-hover-color: rgb(139, 179, 215);
+  --icon-color: var(--navbar-bg-color) ;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: var(--bg-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--link-hover-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font-family);
+  color: var(--heading-color);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.banner {
+  background-color: var(--banner-color);
+  color: var(--text-color);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.icon {
+  color: var(--banner-color);
+  font-size: 1.2em;
+}
+.icon:hover {
+  color: var(--banner-color);
+}
+
+.navbar {
+  background-color: var(--navbar-bg-color);
+  color: var(--navbar-text-color);
+  padding: 0.5em;
+  border-radius: 0em;
+}
+.navbar a {
+  color: var(--navbar-text-color);
+  text-decoration: none;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+  white-space: nowrap; /* テキストの折り返しを禁止 */
+}
+.navbar a:hover {
+  color: var(--navbar-hover-color);
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: var(--navbar-text-color);
+  font-size: 1.5em;
+}
+.navbar .navbar-item {
+  font-size: 1em;
+}
+.navbar .navbar-item:hover {
+  background-color: var(--navbar-bg-color);
+  color: var(--navbar-hover-color);
+}
+.navbar button {
+  background-color: var(--navbar-hover-color);
+  color: var(--navbar-text-color);
+  border: none;
+  padding: 0.2em 0.6em;
+  border-radius: 0.7em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap; /* テキストの折り返しを禁止 */
+}
+.navbar button:hover {
+  background-color: var(--navbar-hover-color);
+}
+
+.footer-content {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  border-top: 1px solid #444;
+}
+.footer-content a {
+  color: #66c0f4;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+.footer-content a:hover {
+  color: #9bd1fa;
+}/*# sourceMappingURL=theme_default.css.map */

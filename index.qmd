@@ -1,0 +1,50 @@
+---
+title: "Mana Sakai 酒井 真菜"
+description: "Master's student, Department of Statistics, Graduate School of Economics, The University of Tokyo"
+lang: en
+---
+
+
+:::: {.columns}
+::: {.column width="100%"}
+
+### About me
+
+I am a master's student in the Department of Statistics, [Graduate School of Economics](https://www.e.u-tokyo.ac.jp/index-e.html), [The University of Tokyo](https://www.u-tokyo.ac.jp/en/).
+
+:::
+::: {.column width="0%"}
+
+<!-- ![](./images/profile.png){height="200" fig-align="center"} -->
+
+:::
+::::
+
+### Contacts
+
+<i class="bi bi-envelope" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
+sakai-mana@g.ecc.u-tokyo.ac.jp
+
+<i class="bi bi-twitter-x" style="color: var(--icon-color); font-size: 1.2em; vertical-align: middle;"></i>
+[@_iammana](https://x.com/_iammana)
+
+### Research interests
+
+I am currently working on the following topics:
+
+- **Statitstical machine learning**
+    - Neural networks
+- **Statistics**
+
+### Education
+
+<i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
+**M.A. in Economics (Expected)**, Department of Statistics, Graduate School of Economics, The University of Tokyo, 2025.
+
+<i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
+**B.A. in Economics**, School of Political Science and Economics, Waseda University, 2023.
+
+### Experience
+
+<i class="bi bi-person" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
+Research Part-time Worker, High-Dimensional Causal Analysis Team, RIKEN Center for Advanced Intelligence Project, July 2024 -- Present.

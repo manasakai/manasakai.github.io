@@ -1,0 +1,135 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+website:
+  title: "Mana Sakai"
+  # page-footer: Footer
+  search: false
+  navbar:
+    title: false
+    tools:
+      - icon: twitter-x
+        text: X
+        href: https://x.com/_iammana
+      - icon: github
+        text: GitHub
+        href: https://github.com/manasakai
+
+format:
+  html:
+    css: ./styles/theme_default.css
+    toc: false
+    title-block-banner: ./images/banner.jpeg
+    include-before-body:
+      - text: |
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              const navbar = document.querySelector('.navbar');
+              if (navbar) {
+                // Get current URL
+                const currentPage = window.location.pathname;
+
+                // Initial navigation bar (including title)
+                let navbarContent = `
+                <div class="navbar-item">
+                    <a href="/index.html" style="font-size: 1.5em; font-weight: bold;">Mana Sakai</a>
+                  </div>
+                  `;
+
+                // Set button HTML
+                let buttonHTML = '';
+                if (currentPage.includes('index.html')) {
+                  // When on English pages
+                  navbarContent += `
+                    <div class="navbar-item">
+                      <a href="/index.html">Home</a>
+                    </div>
+                    <div class="navbar-item">
+                      <a href="/pages/research.html">Research</a>
+                    </div>
+                  `;
+                  buttonHTML = `
+                    <button onclick="location.href='/pages/home_jp.html'">
+                      <i class="bi bi-globe" style="font-size: 1.3em; vertical-align: middle;"></i>
+                      日本語
+                    </button>
+                  `;
+                } else if (currentPage.includes('home_jp.html')) {
+                  // When on the Japanese Home page
+                  navbarContent += `
+                    <div class="navbar-item">
+                      <a href="/pages/home_jp.html">ホーム</a>
+                    </div>
+                    <div class="navbar-item">
+                      <a href="/pages/research_jp.html">研究</a>
+                    </div>
+                  `;
+                  buttonHTML = `
+                    <button onclick="location.href='/index.html'">
+                      <i class="bi bi-globe" style="font-size: 1.3em; vertical-align: middle;"></i>
+                      English
+                    </button>
+                  `;
+                } else if (currentPage.includes('research.html')) {
+                  // When on the English Research page
+                  navbarContent += `
+                    <div class="navbar-item">
+                      <a href="/index.html">Home</a>
+                    </div>
+                    <div class="navbar-item">
+                      <a href="/pages/research.html">Research</a>
+                    </div>
+                  `;
+                  buttonHTML = `
+                    <button onclick="location.href='/pages/research_jp.html'">
+                      <i class="bi bi-globe" style="font-size: 1.3em; vertical-align: middle;"></i>
+                      日本語
+                    </button>
+                  `;
+                } else if (currentPage.includes('research_jp.html')) {
+                  // When on the Japanese Research page
+                  navbarContent += `
+                    <div class="navbar-item">
+                      <a href="/pages/home_jp.html">ホーム</a>
+                    </div>
+                    <div class="navbar-item">
+                      <a href="/pages/research_jp.html">研究</a>
+                    </div>
+                  `;
+                  buttonHTML = `
+                    <button onclick="location.href='/pages/research.html'">
+                      <i class="bi bi-globe" style="font-size: 1.3em; vertical-align: middle;"></i>
+                      English
+                    </button>
+                  `;
+                } else {
+                  // Default navigation bar
+                  navbarContent += `
+                    <div class="navbar-item">
+                      <a href="/index.html">Home</a>
+                    </div>
+                    <div class="navbar-item">
+                      <a href="/pages/research.html">Research</a>
+                    </div>
+                  `;
+                  buttonHTML = `
+                    <button onclick="location.href='/pages/home_jp.html'">
+                      <i class="bi bi-globe" style="font-size: 1.3em; vertical-align: middle;"></i>
+                      日本語
+                    </button>
+                  `;
+                }
+
+                // Add button HTML to the navigation bar
+                const buttonDiv = document.createElement('div');
+                buttonDiv.innerHTML = buttonHTML;
+                navbar.appendChild(buttonDiv);
+
+                // Update the navigation bar HTML
+                navbar.innerHTML = navbarContent + navbar.innerHTML;
+              }
+            });
+          </script>
