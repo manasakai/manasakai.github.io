@@ -9,6 +9,7 @@ lang: ja
     <br>
     [[PDF](https://arxiv.org/pdf/2412.19187)]
     [[コード](https://github.com/manasakai/second-order-unbiased-NER)]
+    [[スライド](/files/Slides_PriorsForSecond-OrderUnbiasedBayesEstimators_jp.pdf){target="_blank"}]
     <br>
     <details>
     <summary>
