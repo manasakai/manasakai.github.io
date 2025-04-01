@@ -1,6 +1,6 @@
 ---
 title: "Mana Sakai 酒井 真菜"
-description: "Master's student, Department of Statistics, Graduate School of Economics, The University of Tokyo"
+description: "Ph.D. student, Department of Statistics, Graduate School of Economics, The University of Tokyo"
 lang: en
 ---
 
@@ -10,7 +10,7 @@ lang: en
 
 ### About me
 
-I am a master's student in the Department of Statistics, [Graduate School of Economics](https://www.e.u-tokyo.ac.jp/index-e.html), [The University of Tokyo](https://www.u-tokyo.ac.jp/en/).
+I am a Ph.D. student in the Department of Statistics, [Graduate School of Economics](https://www.e.u-tokyo.ac.jp/index-e.html), [The University of Tokyo](https://www.u-tokyo.ac.jp/en/).
 
 :::
 ::: {.column width="0%"}
@@ -39,7 +39,7 @@ I am currently working on the following topics:
 ### Education
 
 <i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
-**M.A. in Economics (Expected)**, Department of Statistics, Graduate School of Economics, The University of Tokyo, 2025.
+**M.A. in Economics**, Department of Statistics, Graduate School of Economics, The University of Tokyo, 2025.
 
 <i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
 **B.A. in Economics**, School of Political Science and Economics, Waseda University, 2023.
@@ -47,4 +47,7 @@ I am currently working on the following topics:
 ### Experience
 
 <i class="bi bi-person" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
-Research Part-time Worker, High-Dimensional Causal Analysis Team, RIKEN Center for Advanced Intelligence Project, July 2024 -- Present.
+Research Part-time Worker, High-Dimensional Causal Analysis Team, RIKEN Center for Advanced Intelligence Project, July 2024 -- March 2025.
+
+<i class="bi bi-person" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
+Junior Research Associate (JRA), High-Dimensional Causal Analysis Team, RIKEN Center for Advanced Intelligence Project, April 2025 -- Present.
