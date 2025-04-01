@@ -1,6 +1,6 @@
 ---
 title: "Mana Sakai 酒井 真菜"
-description: "Ph.D. student, Department of Statistics, Graduate School of Economics, The University of Tokyo"
+description: "Ph.D. candidate, Department of Statistics, Graduate School of Economics, The University of Tokyo"
 lang: en
 ---
 
@@ -10,7 +10,7 @@ lang: en
 
 ### About me
 
-I am a Ph.D. student in the Department of Statistics, [Graduate School of Economics](https://www.e.u-tokyo.ac.jp/index-e.html), [The University of Tokyo](https://www.u-tokyo.ac.jp/en/).
+I am a Ph.D. candidate in the Department of Statistics, [Graduate School of Economics](https://www.e.u-tokyo.ac.jp/index-e.html), [The University of Tokyo](https://www.u-tokyo.ac.jp/en/).
 
 :::
 ::: {.column width="0%"}
