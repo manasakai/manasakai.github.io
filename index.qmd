@@ -8,9 +8,10 @@ lang: en
 :::: {.columns}
 ::: {.column width="100%"}
 
-### About me
+### Affiliation
 
-I am a Ph.D. candidate in the Department of Statistics, [Graduate School of Economics](https://www.e.u-tokyo.ac.jp/index-e.html), [The University of Tokyo](https://www.u-tokyo.ac.jp/en/).
+- Ph.D. candidate in the Department of Statistics, [Graduate School of Economics](https://www.e.u-tokyo.ac.jp/index-e.html), [The University of Tokyo](https://www.u-tokyo.ac.jp/en/).
+- Junior Research Associate (JRA) in the [High-Dimensional Causal Analysis Team](https://www.riken.jp/en/research/labs/aip/generic_tech/highdim_cause_anl/index.html), [RIKEN Center for Advanced Intelligence Project (AIP)](https://www.riken.jp/en/research/labs/aip/).
 
 :::
 ::: {.column width="0%"}
