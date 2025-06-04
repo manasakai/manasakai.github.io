@@ -5,30 +5,53 @@ lang: ja
 
 ### プレプリント
 
+- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. (2025). Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. [*arXiv:2506.00846*](https://arxiv.org/abs/2506.00846).
+[[PDF](https://arxiv.org/pdf/2506.00846),
+[コード](https://github.com/manasakai/infinite-width-attention)]
+    <br>
+    <small>
+        <span style="color: var(--text-sub-color)">
+            **内容**：単一のアテンション層の無限幅極限における非ガウス極限分布の解明
+        </span>
+        <details>
+            <summary>
+                <span style="color: var(--text-sub-color)">
+                    概要
+                </span>
+            </summary>
+            <span style="color: var(--text-sub-color)">
+                近年のニューラルネットワーク理論では，ネットワークの無限幅極限を考えることで，ニューロンの出力をガウス分布として扱う枠組みが広く用いられてきた（例えばニューラルネットワークガウス過程やテンソルプログラムなど）．しかしアテンション層に関しては，ヘッド数を無限を無限にするか特殊なスケーリングを導入するなどの条件を課さない限り，このガウス近似は機能せず，従来の理論ではその内部の分布を捉えられないという課題があった．本論文では，テンソルプログラムフレームワークを活用し，現実的なアーキテクチャ設定および標準的な$1/\sqrt{n}$スケーリング（次元数$n$）の下で，<u>**単一のアテンション層の各変数が無限幅極限でどのような確率分布に収束するかを厳密に導出**</u>する．特に，無限ヘッド極限や特別なスケーリングに頼ることなく，この極限分布の正確な形を導出し，それが<u>**ガウス分布とは本質的に異なる**</u>ことを示す．この極限分布は階層構造に起因する非ガウス性を呈し，アテンション内部の類似度スコアに条件付ければガウス分布となる．数値実験は理論予測を裏付け，有限幅の場合でも有限ヘッドアテンションを正確に記述できることを確認した．本成果は，無限幅極限で深層トランスフォーマー全体を解析する統一理論を構築するための礎となる．
+            </span>
+        </details>
+    </small>
+
 - **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. (2024). Priors for second-order unbiased Bayes estimators. [*arXiv:2412.19187*](https://arxiv.org/abs/2412.19187).
-    <br>
-    [[PDF](https://arxiv.org/pdf/2412.19187)]
-    [[コード](https://github.com/manasakai/second-order-unbiased-NER)]
-    [[スライド](/files/Slides_PriorsForSecond-OrderUnbiasedBayesEstimators_jp.pdf){target="_blank"}]
-    <br>
-    <details>
-    <summary>
-    <span style="color: var(--text-sub-color)">
-    概要
-    </span>
-    </summary>
+[[PDF](https://arxiv.org/pdf/2412.19187),
+[コード](https://github.com/manasakai/second-order-unbiased-NER),
+[スライド](/files/Slides_PriorsForSecond-OrderUnbiasedBayesEstimators_jp.pdf){target="_blank"},
+[ポスター](/files/Poster_PriorsForSecond-OrderUnbiasedBayesEstimators.pdf){target="_blank"}]
+    <small>
+        <br>
+        <span style="color: var(--text-sub-color)">
+            **内容**：独立同一でないモデルにおいて2次不偏なベイズ推定量を生成する事前分布の導出
+        </span>
+        <details>
+            <summary>
+                <span style="color: var(--text-sub-color)">
+                    概要
+                </span>
+            </summary>
+            <span style="color: var(--text-sub-color)">
+                Hartigan (1965) によって導入された<u>**漸近不偏事前分布 (asymptotically unbiased priors)**</u> は，ベイズ推定量の<u>**2次不偏**</u>性を達成するために設計されている．ここで推定量が2次不偏であるとは，推定量のバイアスがサンプルサイズ$n$に対して$o(n^{-1})$であることを意味する．本論文では，<u>**Hartigan の枠組みを i.i.d. でないモデルに拡張</u>**し，漸近的に不偏な事前分布を特徴づける偏微分方程式系を導出する．さらに，そのような事前分布の存在性の必要十分条件を議論し，一般に<u>**漸近不偏事前分布を構築するための簡単な手順を提案**</u>する．
+                <br>
+                本論文では，提案した事前分布の構築法を線形回帰モデルや nested error regression (NER) モデル (変量効果モデルとしても知られる) など，いくつかの例に適用し，対応するベイズ推定量の頻度論的性質を評価する．
+            </span>
 
-    <span style="color: var(--text-sub-color)">
-    Hartigan (1965) によって導入された<u>**漸近不偏事前分布 (asymptotically unbiased priors)**</u> は，ベイズ推定量の<u>**2次不偏**</u>性を達成するために設計されている．ここで推定量が2次不偏であるとは，推定量のバイアスがサンプルサイズ$n$に対して$o(n^{-1})$であることを意味する．本論文では，<u>**Hartigan の枠組みを i.i.d. でないモデルに拡張</u>**し，漸近的に不偏な事前分布を特徴づける偏微分方程式系を導出する．さらに，そのような事前分布の存在性の必要十分条件を議論し，一般に<u>**漸近不偏事前分布を構築するための簡単な手順を提案**</u>する．
-    <br>
-    本論文では，提案した事前分布の構築法を線形回帰モデルや nested error regression (NER) モデル (変量効果モデルとしても知られる) など，いくつかの例に適用し，対応するベイズ推定量の頻度論的性質を評価する．
-    </span>
-
-    <span style="color: var(--text-sub-color)">
-    [1] Hartigan, J. A. (1965). The asymptotically unbiased prior distribution. *The Annals of Mathematical Statistics 36*(4), 1137–1152.
-    </span>
-    </details>
-
+            <span style="color: var(--text-sub-color)">
+                [1] Hartigan, J. A. (1965). The asymptotically unbiased prior distribution. *The Annals of Mathematical Statistics 36*(4), 1137–1152.
+            </span>
+        </details>
+    </small>
 
 ### 研究発表
 

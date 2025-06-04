@@ -3,32 +3,55 @@ title: "Research"
 lang: en
 ---
 
-### Preprint
+### Preprints
+
+- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. (2025). Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. [*arXiv:2506.00846*](https://arxiv.org/abs/2506.00846).
+[[PDF](https://arxiv.org/pdf/2506.00846),
+[Code](https://github.com/manasakai/infinite-width-attention)]
+    <br>
+    <small>
+        <span style="color: var(--text-sub-color)">
+            **Topic:**  Derivation of the non-Gaussian limit distribution in the infinite-width limit of a single attention layer
+        </span>
+        <details>
+            <summary>
+                <span style="color: var(--text-sub-color)">
+                    **Abstract**
+                </span>
+            </summary>
+            <span style="color: var(--text-sub-color)">
+                In modern theoretical analyses of neural networks, the infinite-width limit is often invoked to justify Gaussian approximations of neuron preactivations (e.g., via neural network Gaussian processes or Tensor Programs). However, these Gaussian-based asymptotic theories have so far been unable to capture the behavior of attention layers, except under special regimes such as infinitely many heads or tailored scaling schemes. In this paper, leveraging the Tensor Programs framework, we <u>**rigorously identify the infinite-width limit distribution of variables within a single attention layer**</u> under realistic architectural dimensionality and standard $1/\sqrt{n}$-scaling with $n$ dimensionality. We derive the exact form of this limit law without resorting to infinite-head approximations or tailored scalings, demonstrating that it <u>**departs fundamentally from Gaussianity**</u>. This limiting distribution exhibits non-Gaussianity from a hierarchical structure, being Gaussian conditional on the random similarity scores. Numerical experiments validate our theoretical predictions, confirming the effectiveness of our theory at finite width and accurate description of finite-head attentions. Beyond characterizing a standalone attention layer, our findings lay the groundwork for developing a unified theory of deep Transformer architectures in the infinite-width regime.
+            </span>
+        </details>
+    </small>
 
 - **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. (2024). Priors for second-order unbiased Bayes estimators. [*arXiv:2412.19187*](https://arxiv.org/abs/2412.19187).
+[[PDF](https://arxiv.org/pdf/2412.19187),
+[Code](https://github.com/manasakai/second-order-unbiased-NER),
+[Slides (in Japanese)](/files/Slides_PriorsForSecond-OrderUnbiasedBayesEstimators_jp.pdf){target="_blank"},
+[Poster](/files/Poster_PriorsForSecond-OrderUnbiasedBayesEstimators.pdf){target="_blank"}]
     <br>
-    [[PDF](https://arxiv.org/pdf/2412.19187)]
-    [[Code](https://github.com/manasakai/second-order-unbiased-NER)]
-    [[Slides (in Japanese)](/files/Slides_PriorsForSecond-OrderUnbiasedBayesEstimators_jp.pdf){target="_blank"}]
-    <br>
-    <details>
-    <summary>
-    <span style="color: var(--text-sub-color)">
-    Abstract
-    </span>
-    </summary>
+    <small>
+        <span style="color: var(--text-sub-color)">
+            **Topic:** Derivation of priors for second-order unbiased Bayes estimators in non-i.i.d. models
+        </span>
+        <details>
+            <summary>
+                <span style="color: var(--text-sub-color)">
+                    **Abstract**
+                </span>
+            </summary>
+            <span style="color: var(--text-sub-color)">
+                <u>**Asymptotically unbiased priors**</u>, introduced by Hartigan (1965), are designed to achieve <u>**second-order unbiasedness</u>** of Bayes estimators. This paper <u>**extends Hartigan's framework to non-i.i.d. models</u>** by deriving a system of partial differential equations that characterizes asymptotically unbiased priors. Furthermore, we establish a necessary and sufficient condition for the existence of such priors and <u>**propose a simple procedure for constructing them</u>**.
+                <br>
+                The proposed method is applied to several examples, including the linear regression model and the nested error regression (NER) model (also known as the random effects model). Simulation studies evaluate the frequentist properties of the Bayes estimator under the asymptotically unbiased prior for the NER model, highlighting its effectiveness in small-sample settings.
+            </span>
 
-    <span style="color: var(--text-sub-color)">
-    <u>**Asymptotically unbiased priors**</u>, introduced by Hartigan (1965), are designed to achieve <u>**second-order unbiasedness</u>** of Bayes estimators. This paper <u>**extends Hartigan's framework to non-i.i.d. models</u>** by deriving a system of partial differential equations that characterizes asymptotically unbiased priors. Furthermore, we establish a necessary and sufficient condition for the existence of such priors and <u>**propose a simple procedure for constructing them</u>**.
-    <br>
-    The proposed method is applied to several examples, including the linear regression model and the nested error regression (NER) model (also known as the random effects model). Simulation studies evaluate the frequentist properties of the Bayes estimator under the asymptotically unbiased prior for the NER model, highlighting its effectiveness in small-sample settings.
-    </span>
-
-    <span style="color: var(--text-sub-color)">
-    [1] Hartigan, J. A. (1965). The asymptotically unbiased prior distribution. *The Annals of Mathematical Statistics 36*(4), 1137–1152.
-    </span>
-    </details>
-
+            <span style="color: var(--text-sub-color)">
+                [1] Hartigan, J. A. (1965). The asymptotically unbiased prior distribution. *The Annals of Mathematical Statistics 36*(4), 1137–1152.
+            </span>
+        </details>
+    </small>
 
 ### Awards
 - **最優秀報告賞**​，2024年度統計関連学会連合大会，2024/09．
