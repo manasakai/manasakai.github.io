@@ -11,7 +11,7 @@ lang: en
 ### Affiliation
 
 - Ph.D. candidate in the Department of Statistics, [Graduate School of Economics](https://www.e.u-tokyo.ac.jp/index-e.html), [The University of Tokyo](https://www.u-tokyo.ac.jp/en/).
-- Junior Research Associate (JRA) in the [High-Dimensional Causal Analysis Team](https://www.riken.jp/en/research/labs/aip/generic_tech/highdim_cause_anl/index.html), [RIKEN Center for Advanced Intelligence Project (AIP)](https://www.riken.jp/en/research/labs/aip/).
+- Junior Research Associate (JRA) in the [High-Dimensional Structure Theory Team](https://www.riken.jp/en/research/labs/aip/generic_tech/highdim_struct_theor/index.html) (formerly High-Dimensional Causal Analysis Team), [RIKEN Center for Advanced Intelligence Project (AIP)](https://www.riken.jp/en/research/labs/aip/).
 
 :::
 ::: {.column width="0%"}
@@ -51,4 +51,4 @@ I am currently working on the following topics:
 Research Part-time Worker, High-Dimensional Causal Analysis Team, RIKEN Center for Advanced Intelligence Project, July 2024 -- March 2025.
 
 <i class="bi bi-person" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
-Junior Research Associate (JRA), High-Dimensional Causal Analysis Team, RIKEN Center for Advanced Intelligence Project, April 2025 -- Present.
+Junior Research Associate (JRA), High-Dimensional Structure Theory Team (formerly High-Dimensional Causal Analysis Team), RIKEN Center for Advanced Intelligence Project, April 2025 -- Present.
