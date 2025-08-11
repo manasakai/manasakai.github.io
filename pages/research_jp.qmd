@@ -11,7 +11,7 @@ lang: ja
     <br>
     <small>
         <span style="color: var(--text-sub-color)">
-            **内容**：単一のアテンション層の無限幅極限における非ガウス極限分布の解明
+            **話題**：単一のアテンション層の無限幅極限における非ガウス極限分布の解明
         </span>
         <details>
             <summary>
@@ -33,7 +33,7 @@ lang: ja
     <small>
         <br>
         <span style="color: var(--text-sub-color)">
-            **内容**：独立同一でないモデルにおいて2次不偏なベイズ推定量を生成する事前分布の導出
+            **話題**：独立同一でないモデルにおいて2次不偏なベイズ推定量を生成する事前分布の導出
         </span>
         <details>
             <summary>

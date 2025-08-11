@@ -57,12 +57,12 @@ lang: en
 - **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. Priors for second-order unbiased Bayes estimators, [Objective Bayes Methodology Conference 2025](https://obayes25.aueb.gr/index.html), Athens, Greece, 6/8-12, 2025.
 
 ### Awards
-- **Travel Grant Award**, Objective Bayes Methodology Conference 2025, 2025/06.
+- **Travel Grant Award**, Objective Bayes Methodology Conference 2025, June 2025.
 
-- **最優秀報告賞**​，2024年度統計関連学会連合大会，2024/09．
+- **Best Presentation Award**, Japanese Joint Statistical Meeting, September 2024.
 <br>
-(**Best Presentation Award**, Japanese Joint Statistical Meeting, September 2024.)
+(**最優秀報告賞**​，2024年度統計関連学会連合大会，2024/09．)
 
-- **優秀ポスター発表賞**，応用統計学会2024年度年会，2024/05．
+- **Best Poster Award**, 2024 Annual Meeting of the Japanese Society of Applied Statistics, March 2024.
 <br>
-(**Best Poster Award**, 2024 Annual Meeting of the Japanese Society of Applied Statistics, March 2024.)
+(**優秀ポスター発表賞**，応用統計学会2024年度年会，2024/05．)
