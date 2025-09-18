@@ -61,8 +61,8 @@ lang: en
 
 - **Best Presentation Award**, Japanese Joint Statistical Meeting, September 2024.
 <br>
-(**最優秀報告賞**​，2024年度統計関連学会連合大会，2024/09．)
+([**最優秀報告賞**​](https://www.jfssa.jp/meeting/page-922/)​，2024年度統計関連学会連合大会，2024/09．)
 
 - **Best Poster Award**, 2024 Annual Meeting of the Japanese Society of Applied Statistics, March 2024.
 <br>
-(**優秀ポスター発表賞**，応用統計学会2024年度年会，2024/05．)
+([**優秀ポスター発表賞**](https://www.applstat.gr.jp/award/winner/w-2024/)，応用統計学会2024年度年会，2024/05．)
