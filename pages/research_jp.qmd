@@ -3,11 +3,14 @@ title: "研究"
 lang: ja
 ---
 
-### プレプリント
+<!-- ### プレプリント -->
 
-- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. (2025). Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. [*arXiv:2506.00846*](https://arxiv.org/abs/2506.00846).
-[[PDF](https://arxiv.org/pdf/2506.00846),
-[コード](https://github.com/manasakai/infinite-width-attention)]
+
+### 採択論文
+
+- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. (2025). Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. In *Advances in Neural Information Processing Systems*, to appear.
+[[arXiv](https://arxiv.org/abs/2506.00846){target="_blank"},
+[コード](https://github.com/manasakai/infinite-width-attention){target="_blank"}]
     <br>
     <small>
         <span style="color: var(--text-sub-color)">
@@ -25,9 +28,9 @@ lang: ja
         </details>
     </small>
 
-- **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. (2024). Priors for second-order unbiased Bayes estimators. [*arXiv:2412.19187*](https://arxiv.org/abs/2412.19187).
-[[PDF](https://arxiv.org/pdf/2412.19187),
-[コード](https://github.com/manasakai/second-order-unbiased-NER),
+- **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. (2024). Priors for second-order unbiased Bayes estimators. *Biometrika*, accepted.
+[[arXiv](https://arxiv.org/abs/2412.19187){target="_blank"},
+[コード](https://github.com/manasakai/second-order-unbiased-NER){target="_blank"},
 [スライド](/files/Slides_PriorsForSecond-OrderUnbiasedBayesEstimators_jp.pdf){target="_blank"},
 [ポスター](/files/Poster_PriorsForSecond-OrderUnbiasedBayesEstimators.pdf){target="_blank"}]
     <small>
@@ -53,10 +56,15 @@ lang: ja
         </details>
     </small>
 
-### 研究発表
+
+### 研究発表 (国外)
+
+- **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. Priors for second-order unbiased Bayes estimators, Objective Bayes Methodology Conference 2025, Athens, Greece, 6/8-12, 2025.
+
+
+### 研究発表 (国内)
 
 - **酒井真菜**，唐木田亮，今泉允聡．テンソルプログラムを用いた単一アテンション層の無限幅極限の解析．2025年度統計関連学会連合大会，関西大学，9/7-9/11，2025．
-- **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. Priors for second-order unbiased Bayes estimators, [Objective Bayes Methodology Conference 2025](https://obayes25.aueb.gr/index.html), Athens, Greece, 6/8-12, 2025.
 - **酒井真菜**，唐木田亮，今泉允聡．テンソルプログラムの拡張によるアテンション機構の無限幅極限の漸近的解析．2024年度統計関連学会連合大会，東京理科大学，9/1-9/5，2024．
 - **酒井真菜**，松田孟留，久保川達也．2次不偏なベイズ推定量の導出とその性質，2024年度統計関連学会連合大会，東京理科大学，9/1-9/5，2024．
 - **酒井真菜**，松田孟留，久保川達也．2次不偏なベイズ推定量の導出とその性質，日本計算機統計学会第38 回大会，山形，5/23-5/25，2024．
@@ -66,5 +74,5 @@ lang: ja
 ### 受賞
 
 - **Travel Grant Award**, Objective Bayes Methodology Conference 2025, 2025/06.
-- [**最優秀報告賞**​](https://www.jfssa.jp/meeting/page-922/)，2024年度統計関連学会連合大会，2024/09．
-- [**優秀ポスター発表賞**](https://www.applstat.gr.jp/award/winner/w-2024/)，応用統計学会2024年度年会，2024/05．
+- [**最優秀報告賞**​](https://www.jfssa.jp/meeting/page-922/){target="_blank"}，2024年度統計関連学会連合大会，2024/09．
+- [**優秀ポスター発表賞**](https://www.applstat.gr.jp/award/winner/w-2024/){target="_blank"}，応用統計学会2024年度年会，2024/05．

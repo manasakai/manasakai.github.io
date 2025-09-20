@@ -10,8 +10,10 @@ lang: en
 
 ### Affiliation
 
-- Ph.D. candidate in the Department of Statistics, [Graduate School of Economics](https://www.e.u-tokyo.ac.jp/index-e.html), [The University of Tokyo](https://www.u-tokyo.ac.jp/en/).
-- Junior Research Associate (JRA) in the [High-Dimensional Structure Theory Team](https://www.riken.jp/en/research/labs/aip/generic_tech/highdim_struct_theor/index.html) (formerly High-Dimensional Causal Analysis Team), [RIKEN Center for Advanced Intelligence Project (AIP)](https://www.riken.jp/en/research/labs/aip/).
+- Ph.D. candidate in the Department of Statistics, [Graduate School of Economics](https://www.e.u-tokyo.ac.jp/index-e.html){target="_blank"}, [The University of Tokyo](https://www.u-tokyo.ac.jp/en/){target="_blank"}.
+<br>
+(Advisor: Masaaki Imaizumi)
+- Junior Research Associate (JRA) in the [High-Dimensional Structure Theory Team](https://www.riken.jp/en/research/labs/aip/generic_tech/highdim_struct_theor/index.html){target="_blank"} (formerly High-Dimensional Causal Analysis Team), [RIKEN Center for Advanced Intelligence Project (AIP)](https://www.riken.jp/en/research/labs/aip/){target="_blank"}.
 
 :::
 ::: {.column width="0%"}
@@ -21,29 +23,35 @@ lang: en
 :::
 ::::
 
+
 ### Contacts
 
 <i class="bi bi-envelope" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
 sakai-mana@g.ecc.u-tokyo.ac.jp
 
 <i class="bi bi-twitter-x" style="color: var(--icon-color); font-size: 1.2em; vertical-align: middle;"></i>
-[@_iammana](https://x.com/_iammana)
+[@_iammana](https://x.com/_iammana){target="_blank"}
+
 
 ### Research interests
-
-I am currently working on the following topics:
 
 - **Statitstical machine learning**
     - Neural networks
 - **Statistics**
 
+
 ### Education
 
 <i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
 **M.A. in Economics**, Department of Statistics, Graduate School of Economics, The University of Tokyo, 2025.
+<br>
+(Advisor: Tatsuya Kubokawa)
 
 <i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
 **B.A. in Economics**, School of Political Science and Economics, Waseda University, 2023.
+<br>
+(Advisor: Hisatoshi Tanaka)
+
 
 ### Experience
 

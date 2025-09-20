@@ -5,8 +5,9 @@ lang: ja
 ---
 
 ### 所属
-- 東京大学 大学院経済学研究科 経済専攻 統計学コース 博士課程1年
-- 理化学研究所 革新知能統合研究センター [高次元構造理論チーム](https://www.riken.jp/research/labs/aip/generic_tech/highdim_struct_theor/index.html)　(旧 高次元因果解析チーム) 大学院生リサーチ・アソシエイト (JRA)
+- 東京大学 大学院経済学研究科 経済専攻 統計学コース 博士課程1年 (指導教員：今泉允聡先生)
+- 理化学研究所 革新知能統合研究センター [高次元構造理論チーム](https://www.riken.jp/research/labs/aip/generic_tech/highdim_struct_theor/index.html){target="_blank"} (旧 高次元因果解析チーム) 大学院生リサーチ・アソシエイト (JRA)
+
 
 ### 連絡先
 
@@ -14,7 +15,7 @@ lang: ja
 sakai-mana@g.ecc.u-tokyo.ac.jp
 
 <i class="bi bi-twitter-x" style="color: var(--icon-color); font-size: 1.2em; vertical-align: middle;"></i>
-[@_iammana](https://x.com/_iammana)
+[@_iammana](https://x.com/_iammana){target="_blank"}
 
 
 ### 研究関心
@@ -27,10 +28,10 @@ sakai-mana@g.ecc.u-tokyo.ac.jp
 ### 学歴
 
 <i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
-**修士 (経済学，2025)**，東京大学 大学院経済学研究科経済専攻 統計学コース
+**修士 (経済学，2025)**，東京大学 大学院経済学研究科経済専攻 統計学コース (指導教員：久保川達也先生)
 
 <i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
-**学士 (経済学，2023)**，早稲田大学 政治経済学部 経済学科
+**学士 (経済学，2023)**，早稲田大学 政治経済学部 経済学科 (指導教員：田中久稔先生)
 
 
 ### 職歴
