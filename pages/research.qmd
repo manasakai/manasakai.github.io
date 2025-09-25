@@ -7,7 +7,7 @@ lang: en
 
 ### Publications
 
-- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. (2025). Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. In *Advances in Neural Information Processing Systems*, to appear.
+- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. (2025). Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. In *Advances in Neural Information Processing Systems (NeurIPS 2025)*, to appear.
 [[arXiv](https://arxiv.org/abs/2506.00846){target="_blank"},
 [Code](https://github.com/manasakai/infinite-width-attention){target="_blank"}]
     <br>
