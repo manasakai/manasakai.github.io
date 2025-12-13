@@ -30,7 +30,8 @@ lang: ja
     </small>
 
 - **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. (2025). Priors for second-order unbiased Bayes estimators. *Biometrika*, accepted.
-[[論文](https://academic.oup.com/biomet/advance-article-abstract/doi/10.1093/biomet/asaf068/8275768?redirectedFrom=fulltext), [arXiv](https://arxiv.org/abs/2412.19187){target="_blank"},
+[[論文](https://academic.oup.com/biomet/advance-article-abstract/doi/10.1093/biomet/asaf068/8275768?redirectedFrom=fulltext){target="_blank"},
+[arXiv](https://arxiv.org/abs/2412.19187){target="_blank"},
 [コード](https://github.com/manasakai/second-order-unbiased-NER){target="_blank"},
 [スライド](/files/Slides_PriorsForSecond-OrderUnbiasedBayesEstimators_jp.pdf){target="_blank"},
 [ポスター](/files/Poster_PriorsForSecond-OrderUnbiasedBayesEstimators.pdf){target="_blank"}]
