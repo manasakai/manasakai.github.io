@@ -41,3 +41,10 @@ mana.sakai.77 [at] gmail.com
 <br>
 <i class="bi bi-person" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
 研究パートタイマー，理化学研究所 革新知能統合研究センター 高次元因果解析チーム，2024年7月--2025年3月．
+
+
+### 受賞
+
+- **Travel Grant Award**, Objective Bayes Methodology Conference 2025, 2025/06.
+- [**最優秀報告賞**​](https://www.jfssa.jp/meeting/page-922/){target="_blank"}，2024年度統計関連学会連合大会，2024/09．
+- [**優秀ポスター発表賞**](https://www.applstat.gr.jp/award/winner/w-2024/){target="_blank"}，応用統計学会2024年度年会，2024/05．

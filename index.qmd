@@ -60,3 +60,13 @@ Junior Research Associate (JRA), High-Dimensional Structure Theory Team, RIKEN C
 <br>
 <i class="bi bi-person" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
 Research Part-time Worker, High-Dimensional Causal Analysis Team, RIKEN Center for Advanced Intelligence Project, July 2024 -- March 2025.
+
+
+### Awards
+- **Travel Grant Award**, Objective Bayes Methodology Conference 2025, June 2025.
+- **Best Presentation Award**, Japanese Joint Statistical Meeting, September 2024.
+<br>
+([**最優秀報告賞**​](https://www.jfssa.jp/meeting/page-922/){target="_blank"}​，2024年度統計関連学会連合大会，2024/09．)
+- **Best Poster Award**, 2024 Annual Meeting of the Japanese Society of Applied Statistics, March 2024.
+<br>
+([**優秀ポスター発表賞**](https://www.applstat.gr.jp/award/winner/w-2024/){target="_blank"}，応用統計学会2024年度年会，2024/05．)
