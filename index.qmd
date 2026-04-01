@@ -12,7 +12,7 @@ lang: en
 
 - Ph.D. candidate in the Department of Statistics, [Graduate School of Economics](https://www.e.u-tokyo.ac.jp/index-e.html){target="_blank"}, [The University of Tokyo](https://www.u-tokyo.ac.jp/en/){target="_blank"}.
 <br>
-(Advisor: Masaaki Imaizumi)
+(Advisor: [Masaaki Imaizumi](https://sites.google.com/view/mimaizumi/){target="_blank"})
 - Junior Research Associate (JRA) in the [High-Dimensional Structure Theory Team](https://www.riken.jp/en/research/labs/aip/generic_tech/highdim_struct_theor/index.html){target="_blank"}, [RIKEN Center for Advanced Intelligence Project (AIP)](https://www.riken.jp/en/research/labs/aip/){target="_blank"}.
 
 :::
@@ -45,7 +45,7 @@ mana.sakai.77 [at] gmail.com
 <i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
 **M.A. in Economics**, Department of Statistics, Graduate School of Economics, The University of Tokyo, 2025.
 <br>
-(Advisor: Tatsuya Kubokawa)
+(Advisor: [Tatsuya Kubokawa](https://sites.google.com/site/ktatsuya77/list-of-publications?authuser=0){target="_blank"})
 <br>
 <i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
 **B.A. in Economics**, School of Political Science and Economics, Waseda University, 2023.
@@ -63,6 +63,7 @@ Research Part-time Worker, High-Dimensional Causal Analysis Team, RIKEN Center f
 
 
 ### Awards
+- [**RIKEN Ohbu Award (理研桜舞賞)**](https://www.riken.jp/pr/news/2026/20260309_2/index.html){target="_blank"}, RIKEN, March 2026.
 - **Travel Grant Award**, Objective Bayes Methodology Conference 2025, June 2025.
 - **Best Presentation Award**, Japanese Joint Statistical Meeting, September 2024.
 <br>

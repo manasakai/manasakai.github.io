@@ -5,7 +5,7 @@ lang: ja
 ---
 
 ### 所属
-- 東京大学 大学院経済学研究科 経済専攻 統計学コース 博士課程1年 (指導教員：今泉允聡先生)
+- 東京大学 大学院経済学研究科 経済専攻 統計学コース 博士課程2年 (指導教員：[今泉允聡先生](https://sites.google.com/view/mimaizumi/){target="_blank"})
 - 理化学研究所 革新知能統合研究センター [高次元構造理論チーム](https://www.riken.jp/research/labs/aip/generic_tech/highdim_struct_theor/index.html){target="_blank"} 大学院生リサーチ・アソシエイト (JRA)
 
 
@@ -28,7 +28,7 @@ mana.sakai.77 [at] gmail.com
 ### 学歴
 
 <i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
-**修士 (経済学，2025)**，東京大学 大学院経済学研究科経済専攻 統計学コース (指導教員：久保川達也先生)
+**修士 (経済学，2025)**，東京大学 大学院経済学研究科経済専攻 統計学コース (指導教員：[久保川達也先生](https://sites.google.com/site/ktatsuya77/list-of-publications?authuser=0){target="_blank"})
 <br>
 <i class="bi bi-mortarboard" style="color: var(--icon-color); font-size: 1.3em; vertical-align: middle;"></i>
 **学士 (経済学，2023)**，早稲田大学 政治経済学部 経済学科 (指導教員：田中久稔先生)
@@ -45,6 +45,7 @@ mana.sakai.77 [at] gmail.com
 
 ### 受賞
 
+- [**理研桜舞賞**](https://www.riken.jp/pr/news/2026/20260309_2/index.html){target="_blank"}，理化学研究所，2026/03．
 - **Travel Grant Award**, Objective Bayes Methodology Conference 2025, 2025/06.
 - [**最優秀報告賞**​](https://www.jfssa.jp/meeting/page-922/){target="_blank"}，2024年度統計関連学会連合大会，2024/09．
 - [**優秀ポスター発表賞**](https://www.applstat.gr.jp/award/winner/w-2024/){target="_blank"}，応用統計学会2024年度年会，2024/05．
