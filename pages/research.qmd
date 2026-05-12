@@ -3,18 +3,37 @@ title: "Research"
 lang: en
 ---
 
-<!-- ### Preprints -->
+### Preprint
+
+- **Mana Sakai** and Masaaki Imaizumi. (2026). Spectrum-Adaptive Generalization Bounds for Trained Deep Transformers.[*arXiv:2605.07297*](https://arxiv.org/abs/2605.07297){target="_blank"}.
+    <br>
+    <small>
+        <span style="color: var(--text-sub-color)">
+            **TL;DR:** We derive post hoc generalization bounds for deep Transformers that adapt to the learned singular-value spectra of each layer, yielding slower depth and width dependence than existing norm-based bounds
+        </span>
+        <details>
+            <summary>
+                <span style="color: var(--text-sub-color)">
+                    **Abstract**
+                </span>
+            </summary>
+            <span style="color: var(--text-sub-color)">
+                Understanding why trained Transformers generalize well is a fundamental problem in modern machine learning theory, and complexity-based generalization bounds provide a principled way to study this question. While existing norm-based bounds for Transformers remove the explicit polynomial dependence on the hidden dimension, they typically impose fixed norm constraints specified a priori and can exhibit unfavorable exponential dependence on depth. In this paper, we <u>**derive spectrum-adaptive post hoc generalization bounds for multi-layer Transformers**</u>. Under layerwise spectral norm control, the bounds are expressed in terms of layerwise Schatten quantities of the query-key, value, and feedforward weight matrices. Since the Schatten indices need not be fixed a priori and can instead be selected after training, separately for each matrix type and layer, <u>**the bounds adaptively trade off spectral complexity against the dimension- and depth-dependent factors**</u> according to the learned singular-value profiles. Empirical comparisons of BERT-adapted proxies for the leading complexity factors suggest that the proxies induced by our bounds grow more slowly with depth and hidden dimension than the corresponding norm-based proxies. Overall, our results provide a complexity-based perspective on how the spectral structure of trained Transformers is reflected in generalization analyses.
+            </span>
+        </details>
+    </small>
 
 ### Publications
 
-- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. (2025). Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. In *Advances in Neural Information Processing Systems (NeurIPS 2025)*, to appear.
-[[arXiv](https://arxiv.org/abs/2506.00846){target="_blank"},
+- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. (2025). Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. In *Advances in Neural Information Processing Systems (NeurIPS 2025)*, Volume 38, pp. 35630-35664.
+[[Paper](https://papers.nips.cc/paper_files/paper/2025/hash/33201f38001dd381aba2c462051449ba-Abstract-Conference.html){target="_blank"},
+[arXiv](https://arxiv.org/abs/2506.00846){target="_blank"},
 [Code](https://github.com/manasakai/infinite-width-attention){target="_blank"},
 [Poster](/files/Poster_InfiniteWidthLimitOfASingleAttentionLayer.pdf){target="_blank"}]
     <br>
     <small>
         <span style="color: var(--text-sub-color)">
-            **Topic:**  Derivation of the non-Gaussian limit distribution in the infinite-width limit of a single attention layer
+            **TL;DR:**  We rigorously identify the infinite–width limit distribution of neurons within a single attention layer under realistic architectural dimensionality
         </span>
         <details>
             <summary>
@@ -37,7 +56,7 @@ lang: en
     <br>
     <small>
         <span style="color: var(--text-sub-color)">
-            **Topic:** Derivation of priors for second-order unbiased Bayes estimators in non-i.i.d. models
+            **TL;DR:** We derive priors for second-order unbiased Bayes estimators in non-i.i.d. models
         </span>
         <details>
             <summary>
