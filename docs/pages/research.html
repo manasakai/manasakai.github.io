@@ -97,7 +97,27 @@ window.Quarto = {
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-        <div class="quarto-navbar-tools tools-end">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Mana Sakai</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../pages/research.html" aria-current="page"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
     <a href="https://x.com/_iammana" title="X" class="quarto-navigation-tool px-1" aria-label="X"><i class="bi bi-twitter-x"></i></a>
     <a href="https://github.com/manasakai" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
 </div>
@@ -127,114 +147,6 @@ window.Quarto = {
     
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const navbar = document.querySelector('.navbar');
-    if (navbar) {
-      // Get current URL
-      const currentPage = window.location.pathname;
-
-      // Initial navigation bar (including title)
-      let navbarContent = `
-      <div class="navbar-item">
-          <a href="/index.html" style="font-size: 1.5em; font-weight: bold;">Mana Sakai</a>
-        </div>
-        `;
-
-      // Set button HTML
-      let buttonHTML = '';
-      if (currentPage.includes('index.html')) {
-        // When on English pages
-        navbarContent += `
-          <div class="navbar-item">
-            <a href="/index.html">Home</a>
-          </div>
-          <div class="navbar-item">
-            <a href="/pages/research.html">Research</a>
-          </div>
-        `;
-        buttonHTML = `
-          <button onclick="location.href='/pages/home_jp.html'">
-            <i class="bi bi-globe" style="font-size: 1.3em; vertical-align: middle;"></i>
-            日本語
-          </button>
-        `;
-      } else if (currentPage.includes('home_jp.html')) {
-        // When on the Japanese Home page
-        navbarContent += `
-          <div class="navbar-item">
-            <a href="/pages/home_jp.html">ホーム</a>
-          </div>
-          <div class="navbar-item">
-            <a href="/pages/research_jp.html">研究</a>
-          </div>
-        `;
-        buttonHTML = `
-          <button onclick="location.href='/index.html'">
-            <i class="bi bi-globe" style="font-size: 1.3em; vertical-align: middle;"></i>
-            English
-          </button>
-        `;
-      } else if (currentPage.includes('research.html')) {
-        // When on the English Research page
-        navbarContent += `
-          <div class="navbar-item">
-            <a href="/index.html">Home</a>
-          </div>
-          <div class="navbar-item">
-            <a href="/pages/research.html">Research</a>
-          </div>
-        `;
-        buttonHTML = `
-          <button onclick="location.href='/pages/research_jp.html'">
-            <i class="bi bi-globe" style="font-size: 1.3em; vertical-align: middle;"></i>
-            日本語
-          </button>
-        `;
-      } else if (currentPage.includes('research_jp.html')) {
-        // When on the Japanese Research page
-        navbarContent += `
-          <div class="navbar-item">
-            <a href="/pages/home_jp.html">ホーム</a>
-          </div>
-          <div class="navbar-item">
-            <a href="/pages/research_jp.html">研究</a>
-          </div>
-        `;
-        buttonHTML = `
-          <button onclick="location.href='/pages/research.html'">
-            <i class="bi bi-globe" style="font-size: 1.3em; vertical-align: middle;"></i>
-            English
-          </button>
-        `;
-      } else {
-        // Default navigation bar
-        navbarContent += `
-          <div class="navbar-item">
-            <a href="/index.html">Home</a>
-          </div>
-          <div class="navbar-item">
-            <a href="/pages/research.html">Research</a>
-          </div>
-        `;
-        buttonHTML = `
-          <button onclick="location.href='/pages/home_jp.html'">
-            <i class="bi bi-globe" style="font-size: 1.3em; vertical-align: middle;"></i>
-            日本語
-          </button>
-        `;
-      }
-
-      // Add button HTML to the navigation bar
-      const buttonDiv = document.createElement('div');
-      buttonDiv.innerHTML = buttonHTML;
-      navbar.appendChild(buttonDiv);
-
-      // Update the navigation bar HTML
-      navbar.innerHTML = navbarContent + navbar.innerHTML;
-    }
-  });
-</script>
 
 
 
@@ -275,11 +187,22 @@ window.Quarto = {
 </small><p><small></small></p></li>
 </ul>
 </section>
-<section id="international-presentation" class="level3">
-<h3 class="anchored" data-anchor-id="international-presentation">International Presentation</h3>
+<section id="international-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="international-presentations">International Presentations</h3>
 <ul>
 <li><strong>Mana Sakai</strong>, Ryo Karakida, and Masaaki Imaizumi. Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025), San Diego, USA, 12/2–7, 2025.</li>
 <li><strong>Mana Sakai</strong>, Takeru Matsuda, and Tatsuya Kubokawa. Priors for second-order unbiased Bayes estimators. Objective Bayes Methodology Conference 2025, Athens, Greece, 6/8–12, 2025.</li>
+</ul>
+</section>
+<section id="domestic-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="domestic-presentations">Domestic Presentations</h3>
+<ul>
+<li><strong>酒井真菜</strong>，唐木田亮，今泉允聡．テンソルプログラムを用いた単一アテンション層の無限幅極限の解析．第28回情報論的学習理論ワークショップ (IBIS2025)，那覇文化芸術劇場なは一と，11/12–15，2025．</li>
+<li><strong>酒井真菜</strong>，唐木田亮，今泉允聡．テンソルプログラムを用いた単一アテンション層の無限幅極限の解析．2025年度統計関連学会連合大会，関西大学，9/7–9/11，2025．</li>
+<li><strong>酒井真菜</strong>，唐木田亮，今泉允聡．テンソルプログラムの拡張によるアテンション機構の無限幅極限の漸近的解析．2024年度統計関連学会連合大会，東京理科大学，9/1–9/5，2024．</li>
+<li><strong>酒井真菜</strong>，松田孟留，久保川達也．2次不偏なベイズ推定量の導出とその性質，2024年度統計関連学会連合大会，東京理科大学，9/1–9/5，2024．</li>
+<li><strong>酒井真菜</strong>，松田孟留，久保川達也．2次不偏なベイズ推定量の導出とその性質，日本計算機統計学会第38 回大会，山形，5/23–5/25，2024．</li>
+<li><strong>酒井真菜</strong>，松田孟留，久保川達也．2次不偏なベイズ推定量の導出とその性質，応用統計学会2024年度年会，九州大学，5/23–5/9，2024．</li>
 </ul>
 
 

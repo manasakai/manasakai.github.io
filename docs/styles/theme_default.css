@@ -1,5 +1,5 @@
 :root { /*-- Theme: Scandinavian --*/
-  --font-family: "Hiragino Sans", "Noto Sans", "Arial", sans-serif;
+  --font-family: 'Hiragino Sans', 'Noto Sans', 'Arial', sans-serif;
   --navbar-bg-color: rgb(156, 143, 133);
   --navbar-text-color: white;
   --navbar-hover-color: rgb(117, 107, 100);
@@ -94,19 +94,6 @@ h3 {
   background-color: var(--navbar-bg-color);
   color: var(--navbar-hover-color);
 }
-.navbar button {
-  background-color: var(--navbar-hover-color);
-  color: var(--navbar-text-color);
-  border: none;
-  padding: 0.2em 0.6em;
-  border-radius: 0.7em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  white-space: nowrap;
-}
-.navbar button:hover {
-  background-color: var(--navbar-hover-color);
-}
 
 .footer-content {
   background-color: #333;
@@ -124,4 +111,28 @@ h3 {
 }
 .footer-content a:hover {
   color: #9bd1fa;
+}
+
+.lang-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1.5em 0;
+}
+
+.lang-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  background-color: var(--navbar-bg-color);
+  color: var(--navbar-text-color) !important;
+  padding: 0.2em 0.6em;
+  border-radius: 0.7em;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 1.5;
+}
+.lang-button .hover {
+  color: var(--navbar-text-color) !important;
+  background-color: var(--navbar-hover-color);
+  text-decoration: none;
 }/*# sourceMappingURL=theme_default.css.map */

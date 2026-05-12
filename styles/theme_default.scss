@@ -101,19 +101,19 @@ h3 {
             color: var(--navbar-hover-color);
         }
     }
-    button{
-        background-color: var(--navbar-hover-color);
-        color: var(--navbar-text-color);
-        border: none;
-        padding: 0.2em 0.6em;
-        border-radius: 0.7em;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        &:hover {
-            background-color: var(--navbar-hover-color);
-        }
-        white-space: nowrap;  // Prevent text wrapping
-    }
+    // button{
+    //     background-color: var(--navbar-hover-color);
+    //     color: var(--navbar-text-color);
+    //     border: none;
+    //     padding: 0.2em 0.6em;
+    //     border-radius: 0.7em;
+    //     cursor: pointer;
+    //     transition: background-color 0.3s ease;
+    //     &:hover {
+    //         background-color: var(--navbar-hover-color);
+    //     }
+    //     white-space: nowrap;  // Prevent text wrapping
+    // }
 }
 
 .footer-content {
@@ -133,5 +133,29 @@ h3 {
         &:hover {
             color: #9bd1fa;
         }
+    }
+}
+
+.lang-button-wrapper {
+    display: flex;
+    justify-content: flex-end; // Place the button on the right
+    margin: 1.5em 0;
+}
+
+.lang-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25em;
+    background-color: var(--navbar-bg-color);
+    color: var(--navbar-text-color) !important;
+    padding: 0.2em 0.6em;
+    border-radius: 0.7em;
+    text-decoration: none;
+    white-space: nowrap; // Prevent text wrapping
+    line-height: 1.5;
+    .hover {
+        color: var(--navbar-text-color) !important;
+        background-color: var(--navbar-hover-color);
+        text-decoration: none;
     }
 }

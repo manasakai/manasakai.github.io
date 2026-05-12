@@ -77,7 +77,16 @@ lang: en
     </small>
 
 
-### International Presentation
+### International Presentations
 - **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025), San Diego, USA, 12/2--7, 2025.
 - **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. Priors for second-order unbiased Bayes estimators. Objective Bayes Methodology Conference 2025, Athens, Greece, 6/8--12, 2025.
 
+
+### Domestic Presentations
+
+- **酒井真菜**，唐木田亮，今泉允聡．テンソルプログラムを用いた単一アテンション層の無限幅極限の解析．第28回情報論的学習理論ワークショップ (IBIS2025)，那覇文化芸術劇場なは一と，11/12--15，2025．
+- **酒井真菜**，唐木田亮，今泉允聡．テンソルプログラムを用いた単一アテンション層の無限幅極限の解析．2025年度統計関連学会連合大会，関西大学，9/7--9/11，2025．
+- **酒井真菜**，唐木田亮，今泉允聡．テンソルプログラムの拡張によるアテンション機構の無限幅極限の漸近的解析．2024年度統計関連学会連合大会，東京理科大学，9/1--9/5，2024．
+- **酒井真菜**，松田孟留，久保川達也．2次不偏なベイズ推定量の導出とその性質，2024年度統計関連学会連合大会，東京理科大学，9/1--9/5，2024．
+- **酒井真菜**，松田孟留，久保川達也．2次不偏なベイズ推定量の導出とその性質，日本計算機統計学会第38 回大会，山形，5/23--5/25，2024．
+- **酒井真菜**，松田孟留，久保川達也．2次不偏なベイズ推定量の導出とその性質，応用統計学会2024年度年会，九州大学，5/23--5/9，2024．
