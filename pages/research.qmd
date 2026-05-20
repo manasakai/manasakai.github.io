@@ -5,7 +5,7 @@ lang: en
 
 ### Preprint
 
-- **Mana Sakai** and Masaaki Imaizumi. (2026). Spectrum-Adaptive Generalization Bounds for Trained Deep Transformers.[*arXiv:2605.07297*](https://arxiv.org/abs/2605.07297){target="_blank"}.
+- **Mana Sakai** and Masaaki Imaizumi. (2026). Spectrum-Adaptive Generalization Bounds for Trained Deep Transformers. [*arXiv:2605.07297*](https://arxiv.org/abs/2605.07297){target="_blank"}.
     <br>
     <small>
         <span style="color: var(--text-sub-color)">
@@ -25,7 +25,8 @@ lang: en
 
 ### Publications
 
-- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. (2025). Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. In *Advances in Neural Information Processing Systems (NeurIPS 2025)*, Volume 38, pp. 35630-35664.
+- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. (2025). Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. In *Advances in Neural Information Processing Systems (**NeurIPS**)*, Volume 38, pp. 35630-35664.
+<br>
 [[Paper](https://papers.nips.cc/paper_files/paper/2025/hash/33201f38001dd381aba2c462051449ba-Abstract-Conference.html){target="_blank"},
 [arXiv](https://arxiv.org/abs/2506.00846){target="_blank"},
 [Code](https://github.com/manasakai/infinite-width-attention){target="_blank"},
@@ -47,7 +48,8 @@ lang: en
         </details>
     </small>
 
-- **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. (2025). Priors for second-order unbiased Bayes estimators. *Biometrika, 112*(4), asaf068.
+- **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. (2025). Priors for second-order unbiased Bayes estimators. ***Biometrika**, 112*(4), asaf068.
+<br>
 [[Paper](https://academic.oup.com/biomet/advance-article-abstract/doi/10.1093/biomet/asaf068/8275768?redirectedFrom=fulltext){target="_blank"},
 [arXiv](https://arxiv.org/abs/2412.19187){target="_blank"},
 [Code](https://github.com/manasakai/second-order-unbiased-NER){target="_blank"},
