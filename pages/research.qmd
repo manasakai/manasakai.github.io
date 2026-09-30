@@ -3,9 +3,12 @@ title: "Research"
 lang: en
 ---
 
-### Preprint
 
-- **Mana Sakai** and Masaaki Imaizumi. (2026). Spectrum-Adaptive Generalization Bounds for Trained Deep Transformers. [*arXiv:2605.07297*](https://arxiv.org/abs/2605.07297){target="_blank"}.
+### Publications
+
+- **Mana Sakai** and Masaaki Imaizumi. (2026). Spectrum-Adaptive Generalization Bounds for Trained Deep Transformers. In *Advances in Neural Information Processing Systems (**NeurIPS**)*, to appear.
+<br>
+[[arXiv](https://arxiv.org/abs/2605.07297){target="_blank"}]
     <br>
     <small>
         <span style="color: var(--text-sub-color)">
@@ -22,8 +25,6 @@ lang: en
             </span>
         </details>
     </small>
-
-### Publications
 
 - **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. (2025). Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. In *Advances in Neural Information Processing Systems (**NeurIPS**)*, Volume 38, pp. 35630-35664.
 <br>
@@ -79,13 +80,40 @@ lang: en
     </small>
 
 
+### Preprint
+
+- **Mana Sakai** and Masaaki Imaizumi. (2026). Fast Learning Rate Transfer in Shallow Linear Networks at Growing Training Horizons. [*arXiv:2609.35029*](https://arxiv.org/abs/2609.35029){target="_blank"}.
+    <br>
+    <small>
+        <span style="color: var(--text-sub-color)">
+            **TL;DR:** We prove fast learning rate transfer in a shallow linear network when model width and training horizon grow jointly
+        </span>
+        <details>
+            <summary>
+                <span style="color: var(--text-sub-color)">
+                    **Abstract**
+                </span>
+            </summary>
+            <span style="color: var(--text-sub-color)">
+                Hyperparameter transfer across model width can substantially reduce the cost of tuning large neural networks, but its behavior when the training horizon grows with width is not fully understood. Building on the framework of fast hyperparameter transfer (Ghosh et al., 2026), which formalizes when transfer is effective, we investigate conditions that ensure fast transfer in the growing-horizon regime. Specifically, <u>**we study learning-rate transfer in a shallow linear network with a single trainable hidden matrix, trained by full-batch gradient descent.**</u> Under additional spectral assumptions, our main results are threefold. (i) We prove fast learning-rate transfer as $n,T\to\infty$ whenever $T=o(\sqrt{n})$. (ii) We characterize the transfer rates through the finite-width perturbation scale, the first-order sensitivities of the loss and its learning-rate derivative to finite-width perturbations, and the local loss curvature. (iii) We derive limiting distributions for the optimal learning rate and optimized loss, governed by fluctuations associated with the extreme eigenvalues of the data Gram matrix. These results clarify how spectral structure and local loss sensitivities govern learning-rate transfer at growing horizons.
+            </span>
+
+            <span style="color: var(--text-sub-color)">
+                [1] Ghosh, N., D. Wu, and A. Bietti (2026). Understanding the mechanisms of fast hyperparameter transfer. In *International Conference on Learning Representations*, Volume 2026, pp.65022–65063.
+            </span>
+        </details>
+    </small>
+
+
 ### International Presentations
-- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025), San Diego, USA, 12/2--7, 2025.
-- **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. Priors for second-order unbiased Bayes estimators. Objective Bayes Methodology Conference 2025, Athens, Greece, 6/8--12, 2025.
+- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. Korean Statistical Society (KSS) Summer Conference 2026, Gyeongju, South Korea, July 2--4, 2026.
+- **Mana Sakai**, Ryo Karakida, and Masaaki Imaizumi. Infinite-Width Limit of a Single Attention Layer: Analysis via Tensor Programs. The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025), San Diego, USA, December 2--7, 2025.
+- **Mana Sakai**, Takeru Matsuda, and Tatsuya Kubokawa. Priors for second-order unbiased Bayes estimators. Objective Bayes Methodology Conference 2025, Athens, Greece, June 8--12, 2025.
 
 
-### Domestic Presentations
+### Presentations in Japanese
 
+- **酒井真菜**，今泉允聡．訓練済み多層トランスフォーマーに対するスペクトル適応的な汎化誤差解析．2026年度統計関連学会連合大会，横浜市立大学，9/6--9/10，2026．
 - **酒井真菜**，唐木田亮，今泉允聡．テンソルプログラムを用いた単一アテンション層の無限幅極限の解析．第28回情報論的学習理論ワークショップ (IBIS2025)，那覇文化芸術劇場なは一と，11/12--15，2025．
 - **酒井真菜**，唐木田亮，今泉允聡．テンソルプログラムを用いた単一アテンション層の無限幅極限の解析．2025年度統計関連学会連合大会，関西大学，9/7--9/11，2025．
 - **酒井真菜**，唐木田亮，今泉允聡．テンソルプログラムの拡張によるアテンション機構の無限幅極限の漸近的解析．2024年度統計関連学会連合大会，東京理科大学，9/1--9/5，2024．
